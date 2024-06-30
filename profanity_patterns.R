@@ -1,0 +1,2 @@
+profanity_patterns <- c(
+)
