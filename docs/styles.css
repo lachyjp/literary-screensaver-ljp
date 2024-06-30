@@ -2,7 +2,9 @@ html, body {
     margin: 0; padding: 0;
     height: 100%; 
     overflow: auto;
-
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
 }
 
 /*
@@ -12,7 +14,7 @@ html, body {
 */
 #lit_quote em {
     font-weight: 900;
-    color: rgb(19, 19, 19);
+    color: rgb(228, 179, 179);
     font-style: normal
 }
 
@@ -27,7 +29,7 @@ html, body {
 cite {
     float: right;
     padding-left: 10vw;
-    font-size: 2.3vw;
+    font-size: 2vw;
 }
 cite #book{
     font-style: normal;
